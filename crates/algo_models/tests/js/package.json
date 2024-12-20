@@ -13,6 +13,9 @@
     "./snippets/*"
   ],
   "dependencies": {
+    "@awesome-algorand/algod-fetch" : "^3.27.0",
+    "@algorandfoundation/algo-models": "^0.0.2",
+    "algo-msgpack-with-bigint":"^2.1.1",
     "@noble/ed25519": "^2.1.0"
   }
 }
