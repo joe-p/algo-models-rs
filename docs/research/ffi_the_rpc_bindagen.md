@@ -24,14 +24,8 @@ Strong Thoughts(Regardless of approach):
 
 - We should not own the RPC contract (the service should)
 - RPC should not have any abstractions (no more statusAfterBlock vs waitForBlock)
-- Fundamentally bound to hand-crafted packages composed of the primitives in each native language
 
 Luke Warm Thoughts:
 
 We should be able to design the interfaces in a way where all boundaries are respected. 
-The POST endpoints for RPC accept Bytes. This requires no integration nor knowledge
-
-Final Thoughts:
-
-- Codegen Rust + TS RPC libraries
-- 
+The POST endpoints for RPC accept Bytes. This requires no integration nor special knowledge.
