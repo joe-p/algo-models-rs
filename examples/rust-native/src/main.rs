@@ -1,7 +1,3 @@
-// Let's Build advanced sdk functionality here.
-// Typescript is a fail, we will have to hand-craft the bindings so just ignore JS/TS
-// We can leverage the shared `models` package in all packages
-
 #[tokio::main]
 async fn main() {
     let configuration = algo_fetch::apis::configuration::Configuration{
