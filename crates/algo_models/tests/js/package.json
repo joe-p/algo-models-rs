@@ -7,8 +7,8 @@
     "algo_models.js",
     "algo_models.d.ts"
   ],
-  "main": "algo_models.js",
-  "types": "algo_models.d.ts",
+  "main": "pkg/algo_models.js",
+  "types": "pkg/algo_models.d.ts",
   "sideEffects": [
     "./snippets/*"
   ],
